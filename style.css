@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.main {
+  padding-top: 10%;
+
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+#form {
+  display: block;
+  text-align: center;
+}
+
+.searchbox {
+  margin: 20px;
+  width: 500px;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 40px;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  box-shadow: 0 1px 7px #d0d2d6;
+  outline: none;
+}
+
+input[type="search"] {
+  font-family: FontAwesome;
+}
+
+input[placeholder="&#xf002;"] {
+    font-family: helvetica;
+  font-size: 10px;
+}
+
+.submit {
+  background-color: #e8ebe9;
+  border-radius: 3px;
+  margin-right: 6px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+  border: none;
+}
+
+button:hover {
+  border: 1px solid #d0d2d6;
+  cursor: pointer;
+}
+
+.navleft {
+  float: right;
+}
+
+li {
+  font-family: helvetica;
+  font-size: 12px;
+  display: inline;
+  padding: 0 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #e8ebe9;
+  margin: 0;
+  padding-top: 11px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+
+}
+
+.footerright {
+  float: right;
+  display: inline;
+}
+
+footer li a {
+  font-size: 14px;
+  color: black;
+}
